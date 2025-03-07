@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Alycia Cheng</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="   " class="link"
+          >Portfolio</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Alycia Cheng</span></h1>
+        <h2 class="about__role">Mechanical Engineering Student.</h2>
+        <p class="about__desc">
+          I am a 4th-year mechanical engineering student at the University of British Columbia! 
+	  Thank you for taking the time to read my portfolio! 
+        </p>
+
+        <div class="about__contact center">
+
+	<a href="./Alycia-Cheng-Resume-2025.pdf" target="blank" type="application/pdf">
+
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/alycia-cheng/Portfolio/"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <!--<i aria-hidden="true" class="fab fa-github"></i>-->
+          </a>
+
+          <a
+            href="https:linkedin.com/in/alycia-cheng-ubc"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>CFD stuff</h3>
+		<h7>Jan. 2024</h7>
+		</br>
+		</br>
+	    <img width="450" src="images/annieshell.png" alt="annieshell" />
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">STARCCM+</li>
+              <li class="project__stack-item">Low-Speed Aerodynamics</li>
+              <li class="project__stack-item">Vehicle Mechanics</li>
+            </ul>
+
+
+	  </div>
+
+          <div class="project">
+            <h3>Compact Sleep EEG Device</h3>
+		<h7>Jan. 2024</h7>
+		</br>
+		</br>
+		<img width="450" src="images/EEG_12BIT_200HZ.jpg" alt="EEG wavelengths at 200hz" />
+            <p class="project__description">
+              Within a team of six mechanical engineering students we developed a single-channel sleep EEG device for children 
+		for our undergraduate capstone project under the supervision of Dr. Lyndia Wu at UBC. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Arduino/C++</li>
+              <li class="project__stack-item">Digital and Active Filtering</li>
+              <li class="project__stack-item">Wearables</li>
+            </ul>
+
+          </div>
+	</div>
+
+          <div class="project">
+            <h3>Fitting Non-Linear Material Data</h3>
+		<h7>Jan. 2024</h7>
+            <p class="project__description">
+              Curve fitting silicone rubber to an incompressible 3rd-order Ogden model (hyperelastic material model) using 
+	      different optimization algorithms within the MATLAB Optimization Toolbox as an alternative to Ansys Mechanical's usage of Levenberg-		Marquardt. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">MATLAB</li>
+              <li class="project__stack-item">Material Testing</li>
+              <li class="project__stack-item">FEA</li>
+            </ul>
+<!--
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+-->
+          </div>
+	</div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Ansys Mechanical</li>
+          <li class="skills__list-item btn btn--plain">SOLIDWORKS</li>
+          <li class="skills__list-item btn btn--plain">MATLAB</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">C/C++</li>
+          <li class="skills__list-item btn btn--plain">MS Excel</li>
+          <li class="skills__list-item btn btn--plain">OnShape</li>
+          <li class="skills__list-item btn btn--plain">StarCCM+</li>
+          <li class="skills__list-item btn btn--plain">Abaqus</li>
+          <li class="skills__list-item btn btn--plain">Soldering</li>
+          <li class="skills__list-item btn btn--plain">Prototyping</li>
+          <li class="skills__list-item btn btn--plain">I grew a big pumpkin</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:alycia.k.cheng@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://www.linkedin.com/in/alycia-cheng-ubc/"
+        class="link footer__link"
+      >
+        Template Created By Raj Shekhar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
